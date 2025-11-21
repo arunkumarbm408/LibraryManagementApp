@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./views/swagger.config.js && nodemon server.js"
+    "dev": "node ./views/swagger.config.js && node server.js"
   },
   "keywords": [],
   "author": "",
