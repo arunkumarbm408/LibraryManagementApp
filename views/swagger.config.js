@@ -10,7 +10,7 @@ const doc = {
   },
   host: process.env.swagger_host_url,
   basePath: "/", 
-  schemes: ["http", "https"], // by default: ['http']
+  schemes: ["https", "http"], // by default: ['http']
   consumes: ["application/json", "application/x-www-form-urlencoded"],
   produces: ["application/json"],
   tags: [],
